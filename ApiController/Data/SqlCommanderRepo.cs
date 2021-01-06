@@ -51,7 +51,7 @@ namespace ApiController.Data
 
         public void UpdateCommand(Command command)
         {
-            _context.Commands.Remove(command);
+            _context.Commands.Update(command);
         }
     }
 }
